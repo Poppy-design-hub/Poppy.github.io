@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    content: " ";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    width: 95%;
+    text-align: end;
+    position: absolute;
+    z-index: 1;
+
+}
+.img{
+    padding-left: 30px;
+}
+.link a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.link button{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding-right: 30px;
+}
+.button{
+    /* text-decoration: none; */
+    border: 3px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    margin: auto;
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+}
+.button:hover{
+    background-color: #214d23;
+    border: none;
+}
+.hero-section{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(hero2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    background-attachment: scroll;
+    z-index: -1;
+}
+.hero-section p{
+    font-size: 4.5rem;
+    color: white;
+    /* width: 60%; */
+    /* padding-bottom: 20px; */
+    margin: auto;
+    margin-top: 100px;
+}
+.first{
+    width: 100%;
+    margin: auto;
+    /* display: block; */
+}
+.one{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#words{
+    width: 65%;
+    margin: auto;
+    padding-top: 100px;
+}
+.tre{
+    width: 75%;
+    margin: auto;
+}
+.tre h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.tre p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.card{
+    width: 35%;
+    margin: auto;
+    /* padding-top: 150px; */
+}
+.card img{
+    border-radius: 10px;
+    width: 100%;
+    height: 600px;
+}
+.text{
+    width: 70%;
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+.two{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#words2{
+    width: 65%;
+    margin: auto;
+    padding-top: 100px;
+}
+.tru{
+    width: 75%;
+    margin: auto;
+}
+.tru h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.tru p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.card2{
+    width: 35%;
+    margin: auto;
+    /* padding-top: 150px; */
+}
+.card2 img{
+    border-radius: 10px;
+    width: 100%;
+    height: 600px;
+}
+
+.text2{
+    width: 60%;
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+.third{
+    width: 100%;
+    background-color: #c4cadd;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin: auto;
+    height: 60vh;
+}
+figure{
+    margin: auto;
+}
+.third img{
+    border-radius: 50%;
+    width: 80px;
+    margin: auto;
+}
+.third p{
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    line-height: 1.5;
+}
+#butt{
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 1.0rem;
+    margin-top: -10px;
+    margin-bottom: 80px;
+}
+#butt:hover{
+    background-color: #214d23;
+    color: white;
+    border: none;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+}
+footer img{
+    width: 5%;
+    margin: auto;
+}
+.lastwork a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+}
+/* .lastwork a:hover{
+    color: green;
+} */
+footer p{
+    font-size: 1.2rem;
+    margin-right: 40px;
+}
